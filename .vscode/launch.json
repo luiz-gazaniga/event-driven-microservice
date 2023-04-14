@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DiscoveryServerApplication<DiscoveryServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.spiegelberger.estore.discoveryserver.DiscoveryServerApplication",
+            "projectName": "DiscoveryServer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<ProductsService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.spiegelberger.estore.ProductsService.DemoApplication",
+            "projectName": "ProductsService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiGatewayApplication<ApiGateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.spiegelberger.estore.apigateway.ApiGatewayApplication",
+            "projectName": "ApiGateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OrdersServiceApplication<OrdersService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.spiegelberger.estore.OrdersService.OrdersServiceApplication",
+            "projectName": "OrdersService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsersServiceApplication<UsersService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.spiegelberger.estore.UsersService.UsersServiceApplication",
+            "projectName": "UsersService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PaymentserviceApplication<paymentservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.spiegelberger.estore.paymentservice.PaymentserviceApplication",
+            "projectName": "paymentservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
